@@ -194,11 +194,13 @@ img{
     color: var(--first-color-alt);
 }
 .home__img{
-    width: 200px;
+    max-width: 200px;
+    width: 100%;
     fill: var(--first-color);
 }
 .home-image{
     width: 170px;
+    border-radius: 50%;
 }
 .home__data{
     grid-column: 1/3;
