@@ -93,6 +93,9 @@ img{
 /* ======================REUSEABLE CSS CLASSES==================== */
 .section{
     padding: 2rem 0 4rem;
+   
+}
+.main{
     background: var(--input-color);
 }
 .section-title{
@@ -304,25 +307,24 @@ img{
 
 /* ====================ABOUT============= */
 .about__img{
-    max-width: 200px;
+    max-width: 250px;
     width: 100%;
-    border-radius: .5rem;
  
 }
 .about__img img{
-    height: 100%;
-    object-fit: cover;
-    object-position: 60%;
+    border-radius: 5px;
 }
 
 .about__description{
-    text-align: center;
-    margin-bottom: var(--mb-2-5);
+    text-align: start;
+    margin-bottom: var(--mb-0-5);
 }
 .about__info{
+    max-width: 200px;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: var(--mb-2-5);
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
 }
 .about__info-name{
     font-size: var(--smaller-font-size);
@@ -336,10 +338,10 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 
-.about__info-name,
+/* .about__info-name,
 .about__info-title{
     display: block;
     text-align: center;
@@ -348,7 +350,7 @@ img{
 .about__buttons{
     display: flex;
     justify-content: center;
-}
+} */
 
 /* ============skills========================= */
 .skills__container{
@@ -857,10 +859,10 @@ img{
     .about__description{
         text-align: initial;
     }
-    .about__info{
+    /* .about__info{
         justify-content: start;
         column-gap: 3rem;
-    }
+    } */
     .about__buttons{
         justify-content: initial;
     }
@@ -922,6 +924,7 @@ img{
     /* .contact__inputs{
         grid-template-columns: repeat(2,1fr);
     } */
+
 
     
 }
